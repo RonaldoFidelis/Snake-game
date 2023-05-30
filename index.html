@@ -14,8 +14,8 @@
         rel="stylesheet">
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <!-- script -->
@@ -24,6 +24,26 @@
 </head>
 
 <body>
+    <div class="start-game">
+        <div class="container-snake">
+            <img class="img-snake" src="assets/cobra.png"></img>
+            <h2 class="name-game">JOGO DA COBRINHA</h2>
+        </div>
+        <div class="content-menu">
+            <h3 class="title-mods">Modos de jogo</h3>
+            <div class="mods">
+                <label for="mod-easy">Fácil</label>
+                <input type="radio" name="mod-game" id="mod-easy" value="Fácil">
+                <label for="mod-normal">Normal</label>
+                <input type="radio" name="mod-game" id="mod-normal" value="Normal" checked>
+                <label for="mod-hard">Dificil</label>
+                <input type="radio" name="mod-game" id="mod-hard" value="Dificil">
+            </div>
+            <button class="btn-start">PLAY GAME
+            </button>
+        </div>
+    </div>
+    
     <div class="container">
 
         <div class="player-score">
@@ -33,13 +53,14 @@
 
         <div class="play-board"></div>
     </div>
+
     <div class="game-over">
         <div class="head-gameOver">
             <p class="title-game">Jogo da cobrinha</p>
         </div>
         <div class="content-gameOver">
             <p class="score-gameOver"></p>
-        <button class="restart-game"><i class="fa-solid fa-rotate-right"></i></button>
+            <button class="restart-game"><i class="fa-solid fa-rotate-right"></i></button>
         </div>
     </div>
 </body>
