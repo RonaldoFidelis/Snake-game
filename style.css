@@ -14,11 +14,100 @@ body {
     justify-content: center;
 }
 
+.start-game {
+    width: 55vmin;
+    height: 45vmin;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #266e36;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px #727272;
+}
+
+.container-snake{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-snake {
+    width: 40%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.content-menu {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-game{
+    font-size: 18pt;
+    color: #f2f2f2;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em #383838
+}
+
+.title-mods {
+    text-align: center;
+    font-size: 13.5pt;
+    font-weight: 600;
+    color: #000000;
+}
+
+.mods {
+    display: flex;
+    flex-direction: row;
+    font-size: 11.5pt;
+    font-weight: 600;
+    color: #000000;
+}
+
+label {
+    padding-right:2px;
+}
+
+label:hover {
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+input{
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.btn-start{
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 12pt;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn-start:hover{
+    color:#f2f2f2;
+}
+
 .container {
     width: 70vmin;
     height: 75vmin;
     margin-top:25px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #151515;
     box-shadow: 0px 10px 10px #727272;
@@ -125,12 +214,29 @@ body {
 }
 
 @media (max-width:720px) {
-    .container{
-        width: 90vmin;
-        height: 95vmin;
+    .start-game{
+        min-width: 60vmin;
+        min-height: 50vmin ;
     }
+    .name-game{
+        font-size: 10pt;
+    }
+    .container{
+        min-width: 90vmin;
+        height: 95vmin;
+    };
+
     .game-over{
         width: 55vmin;
         height: 35vmin;
+    }
+    .title-game{
+        
+    }
+    .score-gameOver{
+        font-size: 8pt;
+    }
+    .restart-game{
+
     }
 }
