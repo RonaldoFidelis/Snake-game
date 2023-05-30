@@ -1,6 +1,6 @@
 ## Jogo da cobrinha
 
-<img src="">
+<img src="assets/print.png">
 
 ## Tecnologias
 
