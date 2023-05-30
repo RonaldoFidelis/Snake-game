@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link rel="shortcut icon" href="assets/cobra.png" type="image/x-icon">
     <!-- fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +20,27 @@
     <link rel="stylesheet" href="style.css">
     <!-- script -->
     <script defer src="main.js"></script>
-    <title>snake game</title>
+    <title>Jogo da cobrinha</title>
 </head>
 
 <body>
     <div class="container">
 
         <div class="player-score">
-            <i class="fa-solid fa-apple-whole icon-apple"></i>
+            <i class="fa-solid fa-apple-whole icon-apple" title="Maçãs"></i>
             <p class="score">0</p>
         </div>
 
         <div class="play-board"></div>
+    </div>
+    <div class="game-over">
+        <div class="head-gameOver">
+            <p class="title-game">Jogo da cobrinha</p>
+        </div>
+        <div class="content-gameOver">
+            <p class="score-gameOver"></p>
+        <button class="restart-game"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
     </div>
 </body>
 
