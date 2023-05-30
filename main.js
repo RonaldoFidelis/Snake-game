@@ -70,13 +70,11 @@ function main() {
         return endGame();
     };
 
-    let speed = speed_base;
     let initPosition = `<div class="apple" style="grid-area: ${apple_y} / ${apple_x}"></div>`;
 
     //Verificando se a cobra comeu a maçã
     if (checkEatApple(snake_x, snake_y, apple_x, apple_y)) {
         snake_body.push([apple_x, apple_y]);
-        speed -=3;
     }
 
     for (let i = snake_body.length - 1; i > 0; i--) {
