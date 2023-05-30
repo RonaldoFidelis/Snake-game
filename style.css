@@ -54,6 +54,7 @@ body {
 
 .apple {
     background-color: #df3b3b;
+    border-radius: 10px;
 }
 
 .play-board {

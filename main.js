@@ -4,6 +4,7 @@ let display_gameOver = document.querySelector('.game-over');
 let score_gameOver = document.querySelector('.score-gameOver');
 let btn_restart = document.querySelector('.restart-game');
 let score_init = 0;
+
 // x = linha y = coluna
 let apple_x, apple_y;
 let snake_x = 5, snake_y = 5;
