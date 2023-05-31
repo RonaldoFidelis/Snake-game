@@ -15,8 +15,8 @@ body {
 }
 
 .start-game {
-    width: 55vmin;
-    height: 45vmin;
+    width: 50vmin;
+    height: 40vmin;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -24,7 +24,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #266e36;
+    background-image: linear-gradient(#65966e 20%, #3B7873);
     border-radius: 5px;
     box-shadow: 0px 5px 8px #727272;
 }
@@ -60,17 +60,10 @@ body {
     text-shadow: 0.1em 0.1em #383838
 }
 
-.title-mods {
-    text-align: center;
-    font-size: 13.5pt;
-    font-weight: 600;
-    color: #000000;
-}
-
 .mods {
     display: flex;
     flex-direction: row;
-    font-size: 11.5pt;
+    font-size: 10pt;
     font-weight: 600;
     color: #000000;
 }
