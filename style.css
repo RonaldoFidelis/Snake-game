@@ -132,6 +132,7 @@ input{
 
 .snake {
     background-color: #AACF86;
+    border: 1px solid black;
 }
 
 .apple {
