@@ -1,15 +1,24 @@
-## Jogo da cobrinha
+<h1 align=center> SNAKE-GAME COM JAVASCRIPT </h1>
 
-<img src="assets/print-menu.png" style="width:400px" style="height:500px">
-<img src="assets/print-board.png" style="width:400px" style="height:500px">
-<img src="assets/print-reset.png" style="width:400px" style="height:500px">
+<br>
 
-## Tecnologias
 
-- javaScript;
-- Html;
-- Css;
 
-## Link
+<br>
 
-- https://jogodacobrinharf.netlify.app/
+> Teste você mesmo: https://jogodacobrinharf.netlify.app/
+
+<br>
+
+
+## 🚀 Tecnologias usadas:
+
+* **[ JavaScript ](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
+* **[ HTML ](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+* **[ CSS ](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+
+
+## 📝 Maiores aprendizados
+
+* Gravar o projeto, tornando este README um pouco mais profissional
+* Utilizar o CSS GRID 
