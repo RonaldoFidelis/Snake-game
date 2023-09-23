@@ -6,8 +6,9 @@
 
 <br>
 
-> Teste você mesmo: https://jogodacobrinharf.netlify.app/
-
+> Teste você mesmo: <a href="https://jogodacobrinharf.netlify.app/" target="_blank">Snake Game</a>
+<br>
+OBS.: É necessario ter um teclado conectado para conseguir jogar.
 <br>
 
 
